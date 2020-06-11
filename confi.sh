@@ -1,10 +1,13 @@
 echo "Buscando actualizaciones"
 apt update
+termux-setup-storage
 clear
 echo "Instalando acualizaciones.."
 apt -y upgrade
 clear
 apt -y install proot util-linux coreutils vim python python2 ruby perl clang curl wget make openssl php zip unzip tar htop bison findutils git apr apr-util libtool pkg-config tmux termux-tools ncurses-utils ncurses postgresql termux-elf-cleaner openssl-tool
+pip install mechanize
+pip2 install mechanize
 echo "Instalando Banner"
 cd
 cd ../usr/etc/;ls
