@@ -1,10 +1,10 @@
 command_not_found_handle() {
 	@TERMUX_PREFIX@/libexec/termux/command-not-found "$1"
 }
-setterm -foregroud white
+setterm -foreground white
 echo "████████ ██    ██ ████████  ██████  ██     ██  █████  ██████  ███████ ███████"
 echo "   ██    ██    ██    ██    ██    ██ ██     ██ ██   ██ ██   ██ ██         ███"
-setterm -foregroud cyan
+setterm -foreground cyan
 echo "   ██    ██    ██    ██    ██    ██ ██  █  ██ ███████ ██████  █████     ███" 
 echo "   ██    ██    ██    ██    ██    ██ ██ ███ ██ ██   ██ ██   ██ ██       ███"  
 echo "   ██     ██████     ██     ██████   ███ ███  ██   ██ ██   ██ ███████ ███████"
