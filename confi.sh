@@ -17,7 +17,8 @@ pip install wget
 pip install argparse
 pkg install tsu
 pkg install root-repo -y
-pkg instal aircrack-ng
+pkg install unstable-repo
+pkg instal aircrack-ng -y
 pkg install wget gnupg
 pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
 
