@@ -21,7 +21,6 @@ pkg install unstable-repo
 pkg instal aircrack-ng -y
 pkg install wget gnupg
 pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
-
 echo "Instalando Banner"
 cd
 cd ../usr/etc/;ls
@@ -30,4 +29,6 @@ rm bash.bashrc
 ls
 cd
 mv /data/data/com.termux/files/home/test/bash.bashrc /data/data/com.termux/files/usr/etc
-
+clear
+proot -0 -w ~ $PREFIX/bin/bash
+termux-open https://www.youtube.com/watch?v=v3ElO7rYFH8
