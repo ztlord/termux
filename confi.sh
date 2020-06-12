@@ -71,7 +71,7 @@ sleep 7
 echo -e "$azul"
 echo "Configuracion terminada"
 sleep 9
-echo "Ahora subscribete a nuestro canal y selecciona la campanita"
+echo "Ahora subscribete a nuestro canal..."
 setterm -foreground green
 sleep 8
 termux-open https://www.youtube.com/channel/UCaigfZGIirT4jb-g9igyzKg?sub_confirmation=1
