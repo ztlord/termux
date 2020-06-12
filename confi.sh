@@ -49,6 +49,7 @@ pkg install root-repo -y
 pkg install unstable-repo -y
 pkg instal aircrack-ng -y
 pkg install wget gnupg -y
+pkg install thc
 pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings -y
 clear
 echo -e "$amarillo"
