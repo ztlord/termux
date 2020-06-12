@@ -1,3 +1,7 @@
+#!bin/bash/
+#create by L0rdmizteri0
+# DATE: 12.06.2020
+
 amarillo="\e[1;33m"
 azul="\e[96m"
 
