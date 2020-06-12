@@ -1,6 +1,6 @@
 # Guía Termux — Instalando lenguajes y herramientas
 
-Ruby - Gem Manager
+# - Comandos de instalacion 
 
 - pkg install git
 - git clone https://github.com/ztlord/termux
