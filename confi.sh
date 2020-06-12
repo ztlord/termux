@@ -1,37 +1,36 @@
 #colores
-rojo="\e[31m"
-verde="\e[1;32m"
 amarillo="\e[1;33m"
-azul="\e[1;34m"
-purpura="\e[1;35m"
+azul="\e[96m"
+
+pkg install  figlet -y
 
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 2
 echo -e "$azul"
 echo "Configuracion..."
-sleep 2
+sleep 4
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 4
 echo -e "$azul"
 echo "Buscando actualizaciones"
-apt update
+apt update -y
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 4
 echo -e "$azul"
 echo "Permisos de almacenamiento"
-sleep 1
-termux-setup-storage
 sleep 3
+termux-setup-storage
+sleep 6
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 4
 echo -e "$azul"
 echo "Actualizando paquetes"
 apt -y upgrade
@@ -46,16 +45,16 @@ pip install requests
 pip install scapy
 pip install wget
 pip install argparse
-pkg install tsu
+pkg install tsu -y
 pkg install root-repo -y
-pkg install unstable-repo
+pkg install unstable-repo -y
 pkg instal aircrack-ng -y
-pkg install wget gnupg
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
+pkg install wget gnupg -y
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings -y
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 5
 echo -e "$azul"
 echo "Instalando Banner"
 cd
@@ -68,11 +67,11 @@ mv /data/data/com.termux/files/home/test/bash.bashrc /data/data/com.termux/files
 clear
 echo -e "$amarillo"
 figlet TutoWarez
-sleep 1
+sleep 7
 echo -e "$azul"
 echo "Configuracion terminada"
-sleep 1
+sleep 9
 echo "Ahora subscribete a nuestro canal y selecciona la campanita"
 setterm -foreground green
-sleep 2
+sleep 8
 termux-open https://www.youtube.com/channel/UCaigfZGIirT4jb-g9igyzKg?sub_confirmation=1
