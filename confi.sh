@@ -57,13 +57,14 @@ figlet TutoWarez
 sleep 5
 echo -e "$azul"
 echo "Instalando Banner"
+sleep 5
 cd
 cd ../usr/etc/;ls
 rm motd
 rm bash.bashrc
 ls
 cd
-mv /data/data/com.termux/files/home/test/bash.bashrc /data/data/com.termux/files/usr/etc
+mv /data/data/com.termux/files/home/termux/bash.bashrc /data/data/com.termux/files/usr/etc
 clear
 echo -e "$amarillo"
 figlet TutoWarez
