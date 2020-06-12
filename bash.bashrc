@@ -3,8 +3,8 @@ command_not_found_handle() {
 }
 setterm -foreground yellow
 figlet TutoWarez
-Echo " "
-Echo " "
-Echo " "
+echo " "
+echo " "
+echo " "
 setterm -foreground cyan
 PS1="TutoWarez$ "
