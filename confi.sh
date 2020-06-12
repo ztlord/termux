@@ -1,4 +1,3 @@
-#colores
 amarillo="\e[1;33m"
 azul="\e[96m"
 
