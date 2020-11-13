@@ -79,4 +79,4 @@ sleep 9
 echo "Ahora subscribete a nuestro canal..."
 setterm -foreground green
 sleep 8
-termux-open https://d.tube/#!/c/l0rdmizteri0
+termux-open https://www.youtube.com/channel/UCaigfZGIirT4jb-g9igyzKg?sub_confirmation=1
